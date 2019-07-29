@@ -71,12 +71,12 @@
 				A newer wikia owned by Racktor that is meant to be an information hub regarding other people's characters and RP stories as well as a hub for the game's lore and stories. Meant as a replacement or successor to the Order Underground Wiki, an Order shard specific wiki that was the primary resource for character information for years, but locked down registration and moved to a new host.
 				</li>	
 	</article>
-		<div id="sidebar"></div>
-</section>
 	<!--BEGIN SIDEBAR -->
 	<div class="sidebarbox">
 		<?php include("sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
+</section>
+</section>
 </body>
 </html>

@@ -16,12 +16,16 @@
 </head>
 <body onload="homeNavigation(); sidebar();">
 <section>
-	<article style="background-color:rgba(0,0,0,0);">
-		<div class="guide">
+	<!--BEGIN NAVIGATION -->
+	<div class="navbox">
+		<?php include("../navigation.html");?>
+	</div>
+	<!-- END NAVIGATION -->
+	<article>
 		<header class="article border">Dragon Builds</header>
 		<p style="font-size:.75em">Written by Racktor, November 8th 2017 - Last Updated August 1st 2018</p>
 			<br/>
-			<center><i><a href="../guides.php">&larr; Return to Guides</a></i></center>
+			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
 			<ul>
 				<li><a href="#introduction">Introduction</a></li>
@@ -451,6 +455,11 @@
 				<p>In my opinion, Valkor's Blood Talon is the best claw for hybrids as the debuff is not only very deadly, but also procs off of both melee attacks <i>and</i> spells. It's possible the Demon's Claw is the same, but the Blood Talon also helps heal back the damage that a squishier caster may take compared to a tankier melee.</p>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 		</article>
+	<!--BEGIN SIDEBAR -->
+	<div class="sidebarbox">
+		<?php include("../sidebar.html");?>
+	</div>
+	<!-- END SIDEBAR -->
 </section>
 </body>
 </html>

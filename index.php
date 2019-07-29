@@ -28,6 +28,10 @@
 			<p>Our guild is fully equipped to craft anything and everything our members (or the server) may need; we have at least two GMCs and two GMDCs in our ranks and will likely gain more in the coming future! We also enjoy a good hunt and most of us are experienced in epic hunting.</p>
 			<p>We also have multiple lairs and plots scattered across the world for the use of our members, including a full T6 lair on Harro and a complete expert plot in Sslanis. We boast a fully-stocked Grand Hall filled with technique components and six libraries with various formulas and techniques open to any of our members who may need them.</p>
 			<p>Planning out player-made events for both servers, primarily with an RP focus, is also an activity we like to organise all together as a guild and put forth for the enjoyment of the server. Any ideas are always welcome, from either the inside of the guild or out!</p></div>
+		<header class="article border">Alliance with Ethereal Thunder</header>
+			<p>As of July 2019, we are now in a <i>guild alliance</i> with the Chaos-based guild Ethereal Thunder! All active and proven members of Ethereal Thunder are allowed to come and go into Istara's Chosen as they please to work with our resources and structures.</p>
+			<p>The reverse holds true towards ET, for anyone above <i>Apprentice</i> in IC!</p>
+			<p>If you are interested in joining or contacting Ethereal Thunder, their website is located <a href="https://www.ethereal-thunder.com/">here</a> and it is owned in-game by Aekaitz.</p>
 		<header class="article border">Joining Istara's Chosen</header>
 			<p>Joining IC is a very simple matter as long as you're vocal about it! We gladly take anyone from any walk of life as long as they have no history of creating drama or causing fighting or issue within recent years. </p>
 			<p>If you want to join us, feel free to join our public chat named after the guild and talk to us or bother one of the higher-ups listed under Guild Officers.</p>

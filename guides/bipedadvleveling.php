@@ -14,14 +14,18 @@
 	<img src="../images/header_screenshot.png" id="headerscreenshot" />
 <!-- END HEADER IMAGE -->
 </head>
-<body onload="homeNavigation(); sidebar();">
+<body>
 <section>
-	<article style="background-color:rgba(0,0,0,0);">
-		<div class="guide">
+	<!--BEGIN NAVIGATION -->
+	<div class="navbox">
+		<?php include("../navigation.html");?>
+	</div>
+	<!-- END NAVIGATION -->
+	<article>
 		<header class="article border">Biped Adventure Guide</header>
 		<p style="font-size:.75em">Written by Racktor, October 25th 2017</p>
 			<br/>
-			<center><i><a href="../guides.php">&larr; Return to Guides</a></i></center>
+			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
 			<ul>
 				<li><a href="#introduction">Introduction</a></li>
@@ -147,7 +151,11 @@
 			<p>Choosing schools and finding a build you like is likely the biggest draw of bipeds. Everyone has their own plans and ideas on what they want to do; there's a niche for everyone. Do you want to be a deadly soul-sucking biped that can toss tens of debuffs on mobs while using their own life as fuel? Take Bloodmage with Shaman. What about an archer who can fire three shots a second with its greatest epic weapon, dealing massive damage and keeping enemies nearly permenantly stunned? Take Ranger. In the end, it's really up to you and what you find fun. Explore, enjoy, and most of all, have fun.</p>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 		</article>
-		</div>
+	<!--BEGIN SIDEBAR -->
+	<div class="sidebarbox">
+		<?php include("../sidebar.html");?>
+	</div>
+	<!-- END SIDEBAR -->
 </section>
 </body>
 </html>

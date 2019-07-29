@@ -15,13 +15,17 @@
 <!-- END HEADER IMAGE -->
 </head>
 <body id="main" onload="homeNavigation(); sidebar();">
-<section class="main">
-	<article style="background-color:rgba(0,0,0,0);">
-		<div class="guide">
+<section>
+	<!--BEGIN NAVIGATION -->
+	<div class="navbox">
+		<?php include("../navigation.html");?>
+	</div>
+	<!-- END NAVIGATION -->
+	<article>
 		<header class="article border">Dragons: An Introduction and Leveling Guide</header>
 	<p style="font-size:.75em">Written by Racktor &amp; Co., August 1st, 2018 - March 7th, 2019</p>
 			<br/>
-			<center><i><a href="../guides.html">&larr; Return to Guides</a></i></center>
+			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
 			<ul>
 				<li><a href="#intro">Introduction</a></li>
@@ -89,9 +93,12 @@
 			<p>These quests are also your best bet to leveling up. As you get the next version of an ability every 10 levels, and the quests are broken up into two staggered groups - ones that upgrade at level x0 and ones that upgrade at x5 - they provide an excellent (if relatively repetetive) structure to follow to  reach max level.</p>
 			<p>Your first ability quests will be found in Kion, from the dragon on the vault roof named Gerix. Take and do all of the ones that give abilities. There are a few that he offers that are small story quests, which you can do too, but are less important than your ability quests. If you need help on the specifics of the quests, please refer to the informational websites for Istaria - the Lexica or the Wiki.</p>
 			<p>After Kion, ability quests are split between two major cities - Dralk and Chiconis. These cities are where</p>
-			
-
 	</article>
+	<!--BEGIN SIDEBAR -->
+	<div class="sidebarbox">
+		<?php include("../sidebar.html");?>
+	</div>
+	<!-- END SIDEBAR -->
 </section>
 </body>
 </html>

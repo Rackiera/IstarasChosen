@@ -16,12 +16,16 @@
 </head>
 <body onload="homeNavigation(); sidebar();">
 <section>
-	<article style="background-color:rgba(0,0,0,0);">
-		<div class="guide">
+	<!--BEGIN NAVIGATION -->
+	<div class="navbox">
+		<?php include("../navigation.html");?>
+	</div>
+	<!-- END NAVIGATION -->
+	<article>
 		<header class="article border">Biped Crafting Guide</header>
 		<p style="font-size:.75em">Written by Racktor, October 27th 2017 - Last Updated August 1st 2018</p>
 			<br/>
-			<center><i><a href="../guides.php">&larr; Return to Guides</a></i></center>
+			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
 			<ul>
 				<li><a href="#intro">Introduction</a></li>
@@ -777,6 +781,11 @@
 			<p>Done all of that? Got that beautiful 234 Craft Rating? Go check out Solistan in Dalimond to get your well-earned Grand Master Crafter title. Well done, Gifted! Now prepare to be bothered by every dragon and biped out there for everything you know!</p>
 			<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 		</article>
+	<!--BEGIN SIDEBAR -->
+	<div class="sidebarbox">
+		<?php include("../sidebar.html");?>
+	</div>
+	<!-- END SIDEBAR -->
 </section>
 </body>
 </html>

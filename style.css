@@ -98,7 +98,7 @@ section {
 	margin:1em 50px 1em 50px;
 	/*min-width:1300px;*/
 	display:flex;
-	background: linear-gradient(rgba(89,40,20,.9), rgba(53,12,0,.9));
+	background: rgba(89,40,20,.9);
 	border:3px solid #1a0601;
 	justify-content: space-between;
 	}
@@ -178,6 +178,24 @@ div.guide {
 	padding:3em;
 	border-radius:10px;
 	background-color:rgba(0,0,0,.2);
+}
+
+div.equipmentbox {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	
+}
+div.equipmentbox-item {
+	width:45%;
+	background:#37190c;
+	margin:1em 0 1em 0;
+	border-radius:5px;
+	padding:1em;
+	text-align:left;
+	
 }
 
 /*------------------ Sidebar ------------------*/
