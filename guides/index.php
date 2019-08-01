@@ -39,6 +39,7 @@
 			<ul>
 			<li><!--<a href="guides/dragonleveling.php">-->Basic Dragon Leveling ~ <i>Coming Soon</i><!--</a>-->
 			<li><a href="dragonbuilds.php">Dragon Builds</a>
+			<li><a href="dragonreference.php">Dragon Quick Reference Sheet</a>
 			</ul>
 </article>
 	<!--BEGIN SIDEBAR -->
