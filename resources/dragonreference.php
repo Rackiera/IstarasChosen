@@ -22,7 +22,7 @@
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<header class="article border">Epic Monster Guides</header>
+		<header class="article border">Dragon Reference</header>
 	<p style="font-size:.75em">Written by Racktor August 1st, 2019</p>
 			<br/>
 			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>

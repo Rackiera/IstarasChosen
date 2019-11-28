@@ -4,27 +4,39 @@
 
 <head><title>Istara's Chosen - Resources</title>
 	<!-- SCRIPTS -->
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<link rel="icon" type="image/png" href="images/favicon32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="images/favicon16.png" sizes="16x16" />
+		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="../images/favicon16.png" sizes="16x16" />
 	<!-- END SCRIPTS -->
 
 <!-- HEADER IMAGE -->
-	<a href="index.php"><img src="images/istaras_chosen_logo.png" id="logo" /></a>
-	<img src="images/header_screenshot.png" id="headerscreenshot" />
+	<a href="../index.php"><img src="../images/istaras_chosen_logo.png" id="logo" /></a>
+	<img src="../images/header_screenshot.png" id="headerscreenshot" />
 <!-- END HEADER IMAGE -->
 </head>
 <body>
 <section>
 	<!--BEGIN NAVIGATION -->
 	<div class="navbox">
-		<?php include("navigation.html");?>
+		<?php include("../navigation.html");?>
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<center><img style="max-width:75%;" src="images/resources.png"/></center>
+		<center><img style="max-width:75%;" src="../images/resources.png"/></center>
 		<div class="seperator"></div>
 		<p>This page is a simple collection of useful links for anyone needing some guidance in Istaria. The page is in no particular order of preference and all links are listed in alphabetical order.</p>
+		<header class="article border">Our Resources</header>
+			<ul>
+				<li>
+				<a href="ropcalculator.php">Rite of Passage Crafting Calculator</a>
+				<br/>
+				This is a calculator to figure out the minimum craft required for doing the Rite of Passage at any level.
+				</li>
+				<li><a href="dragonreference.php">Dragon Quick Reference Sheet</a>
+				<br/>
+				A reference sheet for anyone leveling a dragon who needs to find a trainer.
+				</li>
+			</ul>
 		<header class="article border">Official Resources</header>
 			<ul>
 				<li>
@@ -70,13 +82,13 @@
 				<br/>
 				A newer wikia owned by Racktor that is meant to be an information hub regarding other people's characters and RP stories as well as a hub for the game's lore and stories. Meant as a replacement or successor to the Order Underground Wiki, an Order shard specific wiki that was the primary resource for character information for years, but locked down registration and moved to a new host.
 				</li>	
-	</article>
+</article>
 	<!--BEGIN SIDEBAR -->
 	<div class="sidebarbox">
-		<?php include("sidebar.html");?>
+		<?php include("../sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
 </section>
-</section>
+<script src="../script.js"></script>
 </body>
 </html>
