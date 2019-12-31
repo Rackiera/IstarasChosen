@@ -15,7 +15,7 @@
 	<script src="../script.js"></script>
 <!-- END HEADER IMAGE -->
 </head>
-<body>
+<body onload=calculateCraft(30,0,0);>
 <section>
 	<!--BEGIN NAVIGATION -->
 	<div class="navbox">
@@ -29,20 +29,43 @@
 			<center><i><a href="index.php">&larr; Return to Resources</a></i></center>
 			<br/>
 		<header class="article border">Calculator</header>
+			<p>The <b>optimal</b> calculation takes into account the absolute minimum craft you can have to complete the RoP, but requires techniqued gear and other preperatory steps listed in in the "Reaching Optimal" section. This is the default.</p>
+			<p>The <b>gearless</b> calculation takes out techniqued gear from the calculation and instead calculates your stats based off of your level, masteries, machine used, and buffs. This is for people who cannot or do not want to technique gear simply for the RoP. You may also choose to use unteched scales of your tier.</p>
+			<p>Finally, <b> maximimum</b> is the level you will need based off of nothing but your statistics and skills gained per level alone. No masteries, scales, buffs, or machines. You can choose whether to re-include a machine and/or unteched scales for your tier.</p>
 			<div class="equipmentbox">
-			<div class="equipmentbox-item"><p>Please enter your character's information below.</p>
-			<p><b>Adventure Level</b> </br></br>
-				<input type="number" name="level" id="alevel" min="30" max="100" value="30"></p>
-			<p><b>Faction</b> </br> </br>
-				<input type="radio" name="faction" id="lunus" value="lunus" checked>Lunus<br>
-				<input type="radio" name="faction" id="helian" value="helian">Helian
-			</p>
-			<p><button onclick="validationCheck()">Calculate</button></p></div>
-			<div class="equipmentbox-item"><p id="output"></p></div>
+			<div class="equipmentbox-item">
+			<form oninput="validationCheck();hideMenus();">
+				<p>Please enter your character's information and select a calculation preference below.</p>
+				<b>Adventure Level</b> <br>
+					<input type="number" name="level" id="alevel" min="30" max="100" value="30"> <br> <br>
+				<b>Training Points</b> <br>
+					Power: <input type="number" name="level" id="tpPower" min="0" max="600" value="0"> <br>
+					Focus: <input type="number" name="level" id="tpFocus" min="0" max="600" value="0"> <br> <br>
+				<b>Faction</b> <br>
+					<input type="radio" name="faction" id="lunus" value="lunus" checked>Lunus<br>
+					<input type="radio" name="faction" id="helian" value="helian">Helian <br> <br>
+				<b>Calculation Type</b> <br>
+					<input type="radio" name="type" id="opt" value="opt" checked>Optimal <br>
+					<input type="radio" name="type" id="gearless" value="gearless" onclick = "hideMenus()">Gearless <br>
+					 <div style="margin-left:2em;visibility:hidden;height:0;" id="gearlessHideable">&#8618; <input type="checkbox" name="unteched" id="gearlessUnteched" value="unteched"><i>Include on-tier unteched scales?</i></div>
+						<input type="radio" name="type" id="max" value="unteched" onclick = "hideMenus()">Maximum
+					 <div style="margin-left:2em;visibility:hidden;" id="maxHideable">&#8618; <input type="checkbox" name="type" id="maxUnteched" value="unteched"><i>Include on-tier unteched scales?</i></div>
+					 <div style="margin-left:2em;visibility:hidden;" id="machineHideable">&#8618; <input type="checkbox" name="type" id="machine" value="machine"><i>Include T6 machine?</i></div>
+			</form></div>
+				<div class="equipmentbox-item">
+					<p id="output"></p>
+					<ul>
+						<p id="statsource_all" style="margin:0em;"></p>
+						<p id="statsource_buff" style="margin:0em;"></p>
+						<p id="statsource_gear" style="margin:0em;"></p>
+						<p id="statsource_machine" style="margin:0em;"></p>
+					</ul>
+					<p id="statsource"></p></div>
+				</div>
 			</div>
 			
-		<header class="article border">Reaching The Skill Shown</header>
-			<p>The calculator assumes a few things. As long as you follow the list below, you should be able to hit the listed skill.			</p> 
+		<header class="article border">Reaching Optimal</header>
+			<p>The calculator assumes a few things. As long as you follow the list below, you should be able to hit the listed skill.</p> 
 			<ul>
 				<li><b>Scales.</b> You need your tier's best <u>Power</u> scales techniqued with the correct skill. Not armor, not strength, not focus - power. It makes a slight difference that can throw you off in tight numbers.</li>
 				<li><b>Buffs.</b> You need to be buffed with Primal Roar and Promote Intellect. The Promote Intellect is based on your <i>tier</i>, meaning you may need someone else to cast it on you if you cannot scribe your tier's Promote Intellect.</li>
@@ -52,7 +75,7 @@
 			<p>If you have your masteries, are wearing your scales, standing at a machine, and are buffed, you'll be fine. The calculator rounds down at every point just in case to avoid rounding errors. If you are one or two skill off, a buff from a biped should fix it.</p>
 			<p>More experienced players may notice I've left out al ot of possible buffs - if I were to calculate literally everything, you could probably get level 20 minimum at every level. However, it's just not helpful to say 'you can get level 20 if you acquire every item in the game' so I left it at dragon-centric, self-acquired items. Tool claws and cogs were also excluded, partly by choice and partly by oversight.</p>
 		<header class="article border">How It Works</header>
-			<p>While there are many things you craft in the RoP, the main sticklers will always be the Obsidian Mirror for Lunus at 300 Transmutation and the Prismatic Focus for Helians at 450 Spellcraft. If you can hit those two numbers, you can hit everything else. I've based this calculator off of that rule, a few assumptions, and a lot of math.</p>
+			<p>While there are many things you craft in the RoP, the main sticklers will always be the Obsidian Mirror for Lunus at 300 Transmutation and the Prismatic Focus for Helians at 450 Spellcraft. If you can hit those two numbers, you can hit everything else. I've based this calculator off of that rule, a few assumptions for optimal, and a lot of math.</p>
 			<p>The assumptions are as follows.</p>
 			<ul>
 				<li><b>You gain Transmutation and Spellcraft from Power and Focus.</b> 7% of your Power and 3% of your Focus become Transmutation skill, and it's 5% for both for Spellcraft. As you level, you gain 8 Power and 7 Focus per level, resulting in a small gain of Spellcraft and Transmutation as you level up. From your entered adventure level, I can find out how much skill you're getting from that level alone.</li>

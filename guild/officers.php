@@ -3,26 +3,27 @@
 
 <head><title>Istara's Chosen - Guild Officers</title>
 	<!-- SCRIPTS -->
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<link rel="icon" type="image/png" href="images/favicon32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="images/favicon16.png" sizes="16x16" />
+		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="../images/favicon16.png" sizes="16x16" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- END SCRIPTS -->
 
 </head>
 <!-- HEADER IMAGE -->
-	<a href="index.php"><img src="images/istaras_chosen_logo.png" id="logo" /></a>
-	<img src="images/header_screenshot.png" id="headerscreenshot" />
+	<a href="../index.php"><img src="../images/istaras_chosen_logo.png" id="logo" /></a>
+	<img src="../../images/header_screenshot.png" id="headerscreenshot" />
 <!-- END HEADER IMAGE -->
 <body>
 <section>
 	<!--BEGIN NAVIGATION -->
 	<div class="navbox">
-		<?php include("navigation.html");?>
+		<?php include("../navigation.html");?>
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<center><img style="max-width:75%;" src="images/guildofficers.png"/></center>
+		<center><img style="max-width:75%;" src="../../images/guildofficers.png"/></center>
+			<center><i><a href="index.php">&larr; Return to Guild Information</a></i></center>
 		<div class="seperator"></div>
 		
 		<p>The guild officers are classified as members of the guild in the Overseer or Capsa Peccatum ranks and are able to add, remove, change the ranks or, or award points to memebers at the least. These officers are here to guide you in the guild or in the game and are willing to answer any questions you may have regarding Istara's Chosen.</p>
@@ -38,7 +39,7 @@
 		<a name="machaeon"><header class="subsection border">Machaeon Endrad</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/machaeon.png" class="modalImg" alt="Overseer Machaeon Endrad">
+						<img width="100%" src="../images/machaeon.png" class="modalImg" alt="Overseer Machaeon Endrad">
 						<br/>
 						<center><b>Machaeon</b></center>
 				</div>
@@ -77,7 +78,7 @@
 		<a name="racktor"><header class="subsection border">Racktor Goralnar</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/racktor.png" class="modalImg" alt="Overseer Racktor Goralnar">
+						<img width="100%" src="../images/racktor.png" class="modalImg" alt="Overseer Racktor Goralnar">
 						<br/>
 						<center><b>Racktor</b></center>
 				</div>
@@ -109,7 +110,7 @@
 		<a name="theeda"><header class="subsection border">Theeda Novelia</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/theeda.png" class="modalImg" alt="Overseer Theeda Novelia">
+						<img width="100%" src="../images/theeda.png" class="modalImg" alt="Overseer Theeda Novelia">
 						<br/>
 						<center><b>Theeda</b></center>
 				</div>
@@ -139,7 +140,7 @@
 		<a name="jstntron"><header class="subsection border">Aeritha Starheart</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/aeritha.png" class="modalImg" alt="Preserver Aeritha">
+						<img width="100%" src="../images/aeritha.png" class="modalImg" alt="Preserver Aeritha">
 						<br/>
 						<center><b>Aeritha</b></center>
 				</div>
@@ -152,7 +153,7 @@
 		<a name="jstntron"><header class="subsection border">Jstntron</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/jstntron.png" class="modalImg" alt="Preserver Jstntron">
+						<img width="100%" src="../images/jstntron.png" class="modalImg" alt="Preserver Jstntron">
 						<br/>
 						<center><b>Jstntron</b></center>
 				</div>
@@ -181,7 +182,7 @@
 		<a name="ecaeris"><header class="subsection border">Ecaeris Dormoira</header></a>
 			<div class="imagefloater">
 				<div class="imagebox">
-						<img width="100%" src="images/ecaeris.png">
+						<img width="100%" src="../images/ecaeris.png">
 						<br/>
 						<center><b>Ecaeris</b></center>
 				</div>
@@ -220,10 +221,10 @@
 		</article>
 	<!--BEGIN SIDEBAR -->
 	<div class="sidebarbox">
-		<?php include("sidebar.html");?>
+		<?php include("../sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
 </section>
-<script src="script.js"></script>
+<script src="../script.js"></script>
 </body>
 </html>

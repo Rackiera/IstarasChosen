@@ -4,25 +4,26 @@
 
 <head><title>Istara's Chosen - Rules and Regulations</title>
 	<!-- SCRIPTS -->
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<link rel="icon" type="image/png" href="images/favicon32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="images/favicon16.png" sizes="16x16" />
+		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="../images/favicon16.png" sizes="16x16" />
 	<!-- END SCRIPTS -->
 
 <!-- HEADER IMAGE -->
-	<a href="index.php"><img src="images/istaras_chosen_logo.png" id="logo" /></a>
-	<img src="images/header_screenshot.png" id="headerscreenshot" />
+	<a href="index.php"><img src="../images/istaras_chosen_logo.png" id="logo" /></a>
+	<img src="../images/header_screenshot.png" id="headerscreenshot" />
 <!-- END HEADER IMAGE -->
 </head>
 <body>
 <section>
 	<!--BEGIN NAVIGATION -->
 	<div class="navbox">
-		<?php include("navigation.html");?>
+		<?php include("../navigation.html");?>
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<center><img style="max-width:75%;" src="images/rules.png"/></center>
+		<center><img style="max-width:75%;" src="../images/rules.png"/></center>
+			<center><i><a href="index.php">&larr; Return to Guild Information</a></i></center>
 		<div class="seperator"></div>
 		<p>Istara's Chosen's rules are very simple in practice and should be easy to follow as long as you are a legitimate player who has no interest in fighting or drama. We are a very lax guild and are strong believers in second chances and giving people a shot. If one person has a problem with another, we prefer to see them work it out rather than block each other and never speak again.</p>
 		<header class="article border">Rules</header>
@@ -56,10 +57,10 @@
 </article>
 	<!--BEGIN SIDEBAR -->
 	<div class="sidebarbox">
-		<?php include("sidebar.html");?>
+		<?php include("../sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
 </section>
-<script src="script.js"></script>
+<script src="../script.js"></script>
 </body>
 </html>

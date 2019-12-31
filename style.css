@@ -180,7 +180,26 @@ div.guide {
 	background-color:rgba(0,0,0,.2);
 }
 
-div.equipmentbox {
+input[type=number] {
+	background-color: rgba(243,88,12,.2);
+	padding:0.2em;
+	border: 2px solid #37190c;
+	border-radius:5px;
+	color:#d5d5d5;
+	outline:none;
+}
+input[type=number]:focus {
+	background-color: rgba(243,88,12,.2);
+	border:2px solid #1b0a03;
+	padding:0.2em;
+	border-radius:5px;
+	color:#d5d5d5;
+	outline:none;
+}
+
+/*------------------ Equipment ------------------*/
+
+div.equipmentbox,div.scalecontainer {
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -195,6 +214,164 @@ div.equipmentbox-item {
 	border-radius:5px;
 	padding:1em;
 	text-align:left;
+	
+}
+
+div.scalecontainer {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:100%;
+	width:600px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+
+div.scalecontainer > .bgimage {
+	width: 32%;
+	margin:0.25em 0 0.25em 0;
+	padding-top:32%; /* 1:1 Aspect Ratio */
+	transition: width 0.5s, padding-top 0.5s, visibility 0.25s;
+	position: relative; /* If you want text inside of it */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimage.head {
+	background:#37190c;
+	background-image:url(images/ingame/scale_head.png);
+}
+.bgimage.wing {
+	background:#37190c;
+	background-image:url(images/ingame/scale_wing.png);
+}
+.bgimage.chest {
+	background:#37190c;
+	background-image:url(images/ingame/scale_chest.png);
+}
+.bgimage.foreleg {
+	background:#37190c;
+	background-image:url(images/ingame/scale_foreleg.png);
+}
+.bgimage.back {
+	background:#37190c;
+	background-image:url(images/ingame/scale_back.png);
+}
+.bgimage.hindleg {
+	background:#37190c;
+	background-image:url(images/ingame/scale_hindleg.png);
+}
+.bgimage.tail {
+	background:#37190c;
+	background-image:url(images/ingame/scale_tail.png);
+}
+
+.text {
+	padding: 1em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align:left;
+	overflow:hidden;
+	transition:visiblity 0.25s;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.text:hover {cursor: pointer;}
+
+.detailbox {
+	display:flex;
+	margin: 0 0.425em 0.425em 0;
+	justify-content:space-around;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width:100%;
+	background: rgba(200,100,0,0.15);
+	border-radius:10px;
+	min-height:30px;
+	max-height: 30%;
+}
+
+
+
+.detailbox > img {
+	display:flex;
+	max-width: 30%;
+	height:auto;
+	margin:1px;
+}
+
+.detailbox > p {
+	width:60%;
+	margin:1px;
+	text-align:left;
+	font-size: 0.9em;
+}
+
+.fulltext {
+	padding: 1em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	visibility:hidden;
+	font-size:0em;
+	transition: font-size 0.5s;
+}
+.fulltext:hover {cursor: pointer;}
+
+.fulltext::-webkit-scrollbar {
+	background-color:rgba(65,29,14,0.25);
+	width:6px;
+}
+
+.fulltext::-webkit-scrollbar-thumb {
+	background-color:#1e0d06;	
+	border-radius: 3px;
+}
+
+img.item {
+	width:20px;
+	margin-bottom:-0.5em;
+}
+
+img.techkit {
+	max-height:24px;
+}
+
+.variationcontainer {
+	display:flex;
+	justify-content:space-around;
+	align-content: flex-start;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	align-items: stretch;
+	width:100%;
+}
+
+.variation-subcontainer {
+	display:flex;
+	padding:0.3em;
+	border-radius:5px;
+	margin: 0.4em;
+	justify-content:flex-start;
+	align-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width:45%;
+	background: rgba(0,0,0,.25);
 	
 }
 

@@ -27,9 +27,9 @@
 		<p>There are multiple ways to get in contact with us if you need to. We're glad to take any questions, comments, or suggestions you may have!</p>
 		<header class="subsection border">In-Game</header>
 		<p>If you need to contact anyone in-game, please refer to the <a href="members.php">member list</a> for a full list of all characters and alts. The overseers of the guild are Machaeon (Chaos & Order), Racktor (Chaos & Order), and Theeda (Chaos). They all lie in the EST timezone (UTC -5).</p>
-		<header class="subsection border">Discord</header>
+		<!--<header class="subsection border">Discord</header>
 		<ul>
-			<li><a href="https://discord.gg/yvTGCJU">Guild Discord</a>
+			<li><a href="">Guild Discord</a>
 			<br/>
 			Our own personal server on Discord. Any non-guild member who joins is welcome to hang around, but know that you're restricted to viewing just one channel unless you're in the guild itself. If you're interested in joining, feel free to hop in and get to know us!
 			</li>
@@ -40,7 +40,7 @@
 					<li>Theeda: Theewee#8842</li>
 				</ul>
 			</li>
-		</ul>
+		</ul>-->
 		<header class="subsection border">Istaria Forums</header>
 		<p>The forums are not really the best way to contact any of us, but some of us at least do poke in every so often.</p>
 		<ul>

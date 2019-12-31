@@ -4,25 +4,27 @@
 
 <head><title>Istara's Chosen - Member List</title>
 	<!-- SCRIPTS -->
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<link rel="icon" type="image/png" href="images/favicon32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="images/favicon16.png" sizes="16x16" />
+		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="../images/favicon16.png" sizes="16x16" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- END SCRIPTS -->
 
 <!-- HEADER IMAGE -->
-	<a href="index.php"><img src="images/istaras_chosen_logo.png" id="logo" /></a>
-	<img src="images/header_screenshot.png" id="headerscreenshot" />
+	<a href="../index.php"><img src="../images/istaras_chosen_logo.png" id="logo" /></a>
+	<img src="../images/header_screenshot.png" id="headerscreenshot" />
 <!-- END HEADER IMAGE -->
 </head>
 <body>
 <section>
 	<!--BEGIN NAVIGATION -->
 	<div class="navbox">
-		<?php include("navigation.html");?>
+		<?php include("../navigation.html");?>
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<center><img style="max-width:75%;" src="images/members.png"/></center>
+		<center><img style="max-width:75%;" src="../images/members.png"/></center>
+			<center><i><a href="index.php">&larr; Return to Guild Information</a></i></center>
 		<div class="seperator"></div>
 		<p>Written here is a full list of members of Istara's Chosen on its most active server, Chaos. Hover over any name to see alternate characters.</p>
 		<p>This page was last updated on April 4th, 2018. There are a total of 144 members in Istara's Chosen on Chaos.</p>
@@ -410,10 +412,10 @@
 </article>
 	<!--BEGIN SIDEBAR -->
 	<div class="sidebarbox">
-		<?php include("sidebar.html");?>
+		<?php include("../sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
 </section>
-<script src="script.js"></script>
+<script src="../script.js"></script>
 </body>
 </html>
