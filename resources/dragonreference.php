@@ -2,7 +2,7 @@
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 
-<head><title>Istara's Chosen - Guides</title>
+<head><title>IC - Dragon Reference</title>
 	<!-- SCRIPTS -->
 		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
 		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />

@@ -35,7 +35,7 @@
 					A guide to making crafting sets to max out your skills for dragons and bipeds alike - both min-maxed sets and general sets are available to reference.
 				</li>
 				<li>
-					<!--<a href="guides/bossguides.php">-->Epic Bosses ~ <i>Coming Soon</i><!--</a>-->
+					<!--<a href="guides/bossguides.php">-->Epic Bosses ~ <i>Work in Progress</i><!--</a>-->
 					<br>
 					A look into each epic boss, its mechanics, weaknesses, allies, and how to best approach a fight.
 				</li>
@@ -56,19 +56,29 @@
 		<header class="subsection border">Dragon</header>
 			<ul>
 				<li>
-					<!--<a href="guides/dragonleveling.php">-->Basic Dragon Leveling ~ <i>Coming Soon</i><!--</a>-->
+					<!--<a href="guides/dragonleveling.php">-->Basic Dragon Leveling ~ <i>Work in Progress</i><!--</a>-->
 					<br>
 					A reference for how to level a dragon from 0 to 100, with suggestions for each tier and area you may get stuck at.
 				</li>
 				<li>
-					<a href="dragonbuilds.php">Dragon Builds</a>
+					<a href="dragonbuildlist.php">Dragon Build List</a>
 					<br>
-					Explanations of how to build a dragon, what works well on each type, and examples of general and optimized gearsets.
+					A page that just lists existing builds hosted on this site that are explained more in-depth on other pages. Useful for linking out to others without hitting them with a wall of text to scroll through.
 				</li>
 				<li>
 					<a href="dragonreference.php">Dragon Quick Reference Sheet</a>
 					<br/>
 					A reference sheet for anyone leveling a dragon who needs to find a trainer.
+				</li>
+				<li>
+					<a href="dragonbuilds.php">Introduction to Dragon Builds</a>
+					<br>
+					Explanations of how to build a dragon, what works well on each type, and examples of general gearsets optimized for different playstyles.
+				</li>
+				<li>
+					<!--<a href="metabuilds.php">-->Meta Dragon Builds ~ <i>Work in Progress</i><!--</a>-->
+					<br>
+					A guide to meta dragon sets, geared towards damage in open world or epic boss solo fighting, proven by math and testing.
 				</li>
 				<li>
 					<a href="ropcalculator.php">Rite of Passage Crafting Calculator</a>

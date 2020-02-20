@@ -2,7 +2,7 @@
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 
-<head><title>Istara's Chosen - Guides</title>
+<head><title>IC - Introduction to Dragon Builds</title>
 	<!-- SCRIPTS -->
 		<link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
 		<link rel="icon" type="image/png" href="../images/favicon32.png" sizes="32x32" />
@@ -22,8 +22,8 @@
 	</div>
 	<!-- END NAVIGATION -->
 	<article>
-		<header class="article border">Dragon Builds</header>
-		<p style="font-size:.75em">Written by Racktor, November 8th 2017 - Last Updated August 1st 2018</p>
+		<header class="article border">Introduction to Dragon Builds</header>
+		<p style="font-size:.75em">Written by Racktor, November 8th 2017 - Last Updated February 16th 2020</p>
 			<br/>
 			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
@@ -71,73 +71,14 @@
 				<p>The scaleset of a melee dragon is usually built on the back of either strength, armor, or health scales in order of popularity. Depending on what base scale you take, what techniques you can put onto your scales will vary. The base scale is usually going to be the statistic you want to focus the most as scales give more of each stat than techniques, so be conscious of that when making your scale set.</p>
 				<p>Armor scale sets will usually be techniqued with health, strength, and tooth and claw. Sockets are added where possible and some may choose to add the tech kits Grazing Winds and Razor Teeth. Personally, I usually opt out of the latter tech kit as I've never felt enough of a difference in the individual ability it affects to feel like it's worth losing out on a socket.</p>
 				<p>Strength scale sets and health scale sets work the same way with the primary statistic swapped out for health or strength where needed.</p>
-				<p>Claws are usually either triple-socketed or techniqued with Battle-Forged. The other tech kits - Sharper and Rending - are in no way inferior to Battle-Forged, however. Sharper is essentially the same but focuses on to-hit chance instead of tooth and claw like Battle-Forged. Rending goes a different route and gives your claw a chance to proc a DoT instead. The technique kit you wish to use is up to you.</p>
+				<p>Claws, excluding epic claws, are usually either triple-socketed or techniqued with Battle-Forged. The other tech kits - Sharper and Rending - are in no way inferior to Battle-Forged, however. Sharper is essentially the same but focuses on to-hit chance instead of tooth and claw like Battle-Forged. Rending goes a different route and gives your claw a chance to proc a DoT instead. The technique kit you wish to use is up to you.</p>
 				<p>Melee claws are usually socketed with strength and health/armor crystals with the third slot being reserved for either the ARoP crystal, a technique kit, or a crystal that adds a chance to do extra damage or a DoT.</p>
 				<p>Crystals elsewhere generally are health, armor, and strength crystals with the exception of the head scale, in which a Tooth and Claw jewelry crystal can fit. Whichever crystal this boots out of the rotation is up to you.</p>
 				<p>When you reach ancient, the rules change, however, as the scales are very different from regular scales and can only take two techniques. As with other scales, you cannot technique what's already on the scale by default. So for any scale that adds armor and strength, you cannot add an armor or strength technique to it. This vastly limits your options, but as many of the statistics you want are already on the scales, it doesn't really matter much.</p>
-				<p>The possibilities are as follows, excluding epic items, quest armor rewards, or legacy techniques (such as Primal Vengeance). What I've written <b>first</b> is what I suggest.</p>
-				<ul>
-					<li>Back Scale:
-						<ol>
-							<li>Health V, Bone Lacing Technique Kit</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Chest Scale:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Rune of Resistance Technique Kit</li>
-							<li>Socket, Health V</li>
-							<li>Socket, Dexterity V</li>
-							<li>Health V, Dexterity V</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Foreleg Scales:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Health V</li>
-							<li>Socket, Dexterity V</li>
-							<li>Health V, Dexterity V</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Head Scale:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Razor Teeth V</li>
-							<li>Socket, Strength V</li>
-							<li>Socket, Armor V</li>
-							<li>Armor  V, Strength V</li>
-						</ol>
-					</li>
-					<li>Hindleg Scales:
-						<ol>
-							<li>Strength V, Tooth and Claw V</li>
-							<li>Strength V, Dexterity V</li>
-							<li>Tooth and Claw V, Dexterity V</li>
-						</ol>
-					</li>
-					<li>Tail Scale:
-						<ol>
-							<li>Health V, Dragon's Breath V</li>
-							<li>Health V, Scale of the Grand Magus Tech Kit</li>
-						</ol>
-					</li>
-					<li>Wing Scales:
-						<ol>
-							<li>Strength V, Piercing Winds V</li>
-							<li>Tooth and Claw V, Piercing Winds V</li>
-							<li>Armor V, Piercing Winds V</li>
-							<li>Strength V, Tooth and Claw V</li>
-							<li>Strength V, Armor V</li>
-							<li>Tooth and Claw V, Armor V</li>
-							<li>Velocity V + Any of the above (Recommended: Make a 2nd travel set for any movement speed techniques such as this and the two below)</li>
-							<li>Velocity V, Speed V</li>
-							<li>Speed V + Any of the above</li>
-						</ol>
-					</li>
-				</ul>
+				
+				<p>The possibilities are very varied when you consider all the quest-rewarded techniques and crystals. I've tried to keep this suggested build relatively simple in terms of rewards to allow the greatest accessibility.</p>
+				<p><i>Click on a scale or claw to read more detail into the choices and different variations thereof.</i></p>
+					<?php include("../resources/builds/dragon_default_melee.html");?>
 				<p>If you are trying to min-max your build towards a specific stat, it is a good idea to swap out T6 scales that do not naturally add your statistic prior to techs with T5 scales that do. My current scaleset on my melee dragon has the hindleg and wing scales swapped with T5 scales and he deals more damage than he does when in full T6 scales. However, he is losing out on some tanking ability, so it's up to you what you want to focus on.</p>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 			<a name="melee-epic"><header class="subsection border">Epic Items</header></a>
@@ -158,69 +99,10 @@
 				<p>Armor and health scales are more for those who want to play more cautiously and build up defenses rather than the offensive. These scales are teched with primal, power, and either health or armor depending on the base type of scale.</p>
 				<p>Claws for casters are a bit more limited than for melee dragons as there aren't as many tech kits available for them. However, the one that is available is quite powerful - Deadly. Deadly adds DPS directly to your spells, so be sure to use it on your claws if you want to increase your damage output. The other technique slots should be filled up with sockets if you have crystals for your tier. Alternatively, you can fully socket your claw without Deadly, but I don't recommend it.</p>
 				<p>T6 scales are another story once you hit ancienthood. These scales add massive amounts of health, but comparably little armor, so you will be more survivable but will not necessarily take much less damage than a T5 scaleset. Your possibilities for techniques are very limited since T6 scales add so many base stats, but that doesn't mean it's impossible to customize yourself.</p>
-				<p>The possibilities are as follows, excluding epic items or quest armor rewards. What I've written <b>first</b> is what I suggest.</p>
-				<ul>
-					<li>Back Scale:
-						<ol>
-							<li>Health V, Bone Lacing Technique Kit</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Chest Scale:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Rune of Resistance Technique Kit</li>
-							<li>Socket, Health V</li>
-							<li>Socket, Focus V</li>
-							<li>Health V, Focus V</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Foreleg Scales:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Health V</li>
-							<li>Socket, Focus V</li>
-							<li>Health V, Focus V</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Head Scale:
-						<ol>
-							<li>2 Sockets</li>
-							<li>Socket, Power V</li>
-							<li>Socket, Armor V</li>
-							<li>Armor  V, Power V</li>
-							<li>Socket, Razor Teeth V</li>
-						</ol>
-					</li>
-					<li>Hindleg Scales:
-						<ol>
-							<li>Power V, Primal V</li>
-							<li>Power V, Focus V</li>
-							<li>Primal V, Focus V</li>
-						</ol>
-					</li>
-					<li>Tail Scale:
-						<ol>
-							<li>Health V, Scale of the Grand Magus Tech Kit</li>
-							<li>Health V, Dragon's Breath V</li>
-						</ol>
-					</li>
-					<li>Wing Scales:
-						<ol>
-							<li>Power V, Primal V</li>
-							<li>Power V, Armor V</li>
-							<li>Primal V, Armor V</li>
-							<li>Power V, Piercing Winds V</li>
-							<li>Primal V, Piercing Winds V</li>
-							<li>Armor V, Piercing Winds V</li>
-							<li>Velocity V + Any of the above (Recommended: Make a 2nd travel set for any movement speed techniques such as this and the two below)</li>
-							<li>Velocity V, Speed V</li>
-							<li>Speed V + Any of the above</li>
-						</ol>
-					</li>
-				</ul>
+
+				<p>The possibilities are very varied when you consider all the quest-rewarded techniques and crystals. I've tried to keep this suggested build relatively simple in terms of rewards to allow the greatest accessibility.</p>
+				<p><i>Click on a scale or claw to read more detail into the choices and different variations thereof.</i></p>
+					<?php include("../resources/builds/dragon_default_caster.html");?>
 				<p>If you are trying to min-max your build towards a specific stat, it is a good idea to swap out T6 scales that do not naturally add your statistic prior to techs with T5 scales that do. My current scaleset on my caster dragon has the hindleg and wing scales swapped with T5 scales and she deals more damage than she does when in full T6 scales. However, she is losing out on some tanking ability, so it's up to you what you want to focus on.</p>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 			<a name="caster-spells"><header class="subsection border">Spells</header></a>
@@ -460,6 +342,7 @@
 		<?php include("../sidebar.html");?>
 	</div>
 	<!-- END SIDEBAR -->
+	<script src="../script.js"></script>
 </section>
 </body>
 </html>

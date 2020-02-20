@@ -221,7 +221,7 @@ div.scalecontainer {
 	margin-left:auto;
 	margin-right:auto;
 	max-width:100%;
-	width:600px;
+	min-width:600px;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -234,7 +234,7 @@ div.scalecontainer > .bgimage {
 	width: 32%;
 	margin:0.25em 0 0.25em 0;
 	padding-top:32%; /* 1:1 Aspect Ratio */
-	transition: width 0.5s, padding-top 0.5s, visibility 0.25s;
+	transition: width 0.25s, padding-top 0.25s, visibility 0.25s ease-out;
 	position: relative; /* If you want text inside of it */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -268,6 +268,11 @@ div.scalecontainer > .bgimage {
 	background:#37190c;
 	background-image:url(images/ingame/scale_tail.png);
 }
+.bgimage.claw {
+	background:#37190c;
+	background-image:url(images/ingame/scale_claw.png);
+}
+
 
 .text {
 	padding: 1em;
@@ -298,16 +303,26 @@ div.scalecontainer > .bgimage {
 	background: rgba(200,100,0,0.15);
 	border-radius:10px;
 	min-height:30px;
-	max-height: 30%;
+	max-height: 25%;
 }
 
-
+.socket {
+	width:60%;
+	text-align:left;
+	font-size:0.75em;
+}
 
 .detailbox > img {
 	display:flex;
-	max-width: 30%;
+	max-width: 25%;
 	height:auto;
 	margin:1px;
+}
+
+img.claw {
+	display:flex;
+	width:2em;
+	height:auto;
 }
 
 .detailbox > p {
@@ -315,10 +330,12 @@ div.scalecontainer > .bgimage {
 	margin:1px;
 	text-align:left;
 	font-size: 0.9em;
+	padding: 1px;
 }
 
 .fulltext {
 	padding: 1em;
+	text-align:left;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -328,7 +345,6 @@ div.scalecontainer > .bgimage {
 	overflow-y:scroll;
 	visibility:hidden;
 	font-size:0em;
-	transition: font-size 0.5s;
 }
 .fulltext:hover {cursor: pointer;}
 

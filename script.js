@@ -1,17 +1,17 @@
-// Gear Menu
+// Gear Menu - Set 1
 var id;
 function squish(id) {
 	var clickCheck = document.getElementById(id).style.width;
 	var selected;
 	selected = id;
 	if (clickCheck === '75%') {
-			for (id=1; id < 11; id++) {
-				document.getElementById(id).setAttribute("style","width:30%;padding-top:30%;")
+			for (id=1; id < 24; id++) {
+				document.getElementById(id).setAttribute("style","width:32%;padding-top:32%;")
 				document.getElementById("simpletext"+id).setAttribute("style","visibility:visible;");
 				document.getElementById("detailedtext"+id).setAttribute("style","visibility:hidden;font-size:0em;")
 			}
 	} else {
-			for (id=1; id < 11; id++) {
+			for (id=1; id < 24; id++) {
 				if (id !== selected) {
 				document.getElementById(id).setAttribute("style","width:0%;padding-top:0%;");
 				document.getElementById("simpletext"+id).setAttribute("style","visibility:hidden;");
@@ -23,7 +23,6 @@ function squish(id) {
 		}
 	}
 }
-
 //ROP CALCULATOR
 function validationCheck() {
 	var adv = document.getElementById("alevel").value;
