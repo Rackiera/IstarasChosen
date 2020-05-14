@@ -56,9 +56,9 @@
 		<header class="subsection border">Dragon</header>
 			<ul>
 				<li>
-					<!--<a href="guides/dragonleveling.php">-->Basic Dragon Leveling ~ <i>Work in Progress</i><!--</a>-->
+					<a href="guides/dragonadvleveling.php">Dragons: An Introduction and Adventure Leveling Guide</a>
 					<br>
-					A reference for how to level a dragon from 0 to 100, with suggestions for each tier and area you may get stuck at.
+					An introduction to players new to dragons including a general explanation of training points, scales, dragon factions, combat, and the process of leveling from 0 to 100 in Dragon Adventurer.
 				</li>
 				<li>
 					<a href="dragonbuildlist.php">Dragon Build List</a>

@@ -27,17 +27,17 @@
 		<center><img style="max-width:75%;" src="../images/guildplotsheader.png"/></center>
 			<center><i><a href="index.php">&larr; Return to Guild Information</a></i></center>
 		<div class="seperator"></div>
-			<center><p>Listed here are all the plots and lairs currently owned by members of the guild with structures open to or planned to be open to guild mates or the public. The property is in order of amount completed, with the first two being fully completed.</p></center>
-			<center><a href="#racktor">Racktor's Refuge (Lair)</a> ~ <a href="#hetanko">Leezlord's Land (Plot)</a> ~ <a href="#genevia">The Genevia Hub (Plot)</a>
+			<center><p>Listed here are all the plots and lairs currently owned by members of the guild with structures open to or planned to be open to guild mates or the public. The property is in order of amount completed, with the first few being fully completed.</p></center>
+			<center><a href="#racktor">Racktor's Refuge (Lair)</a> ~ <a href="#hetanko">Leezlord's Land (Plot)</a> ~  <a href="#kerrsol">Kerrsol's Plot (Plot)</a>
 			<br/>
-			  <a href="#theeda">Theeda's Humble Abode (Lair)</a> ~ <a href="#kerrsol">Kerrsol's Plot (Plot)</a> ~ <a href="#heart">Slice of Paradise (Plot)</a>  
+			  <a href="#theeda">Theeda's Humble Abode (Lair)</a> ~ <a href="#quipsy">Quipsy's Outlook (Plot)</a> ~ <a href="#genevia">The Genevia Hub (Plot)</a> ~ <a href="#caprica">Rückzug der Sturmfänger (Lair)</a> </center>
 			
 			<a name="racktor"><header class="article border">Racktor's Refuge (Lair)</header></a>
 			<!-- ../images of Plot -->
 				<div class="imagefloater">
 					<div class="imagebox">
 						<img width="100%" src="../images/racktorsrefuge.png" class="modalImg" alt="Racktor's Refuge Entrance">
-						<center><i>Lair entrance in-game</i></center>
+						<center><i>Lair In-Game</i></center>
 					</div>
 					<div class="imagebox">
 						<img width="100%" src="../images/racktorsrefuge-location.png"class="modalImg" alt="Racktor's Refuge Location">
@@ -45,22 +45,15 @@
 						<center>
 							<b>Lair Location</b>
 							<br/><br/>
-							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=28109%2C+24919&showpad=">
+							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=28433%2C+24948&showpad=">
 							<i>View on Istaria Reference</a></i>
-						</center>
-					</div>
-					<div class="imagebox">
-						<img width="100%" src="../images/racktorsrefuge-map.png" class="modalImg" alt="Racktor's Refuge Map">
-						<br/>
-						<center>
-							<center><i>Lair Map</i>
 						</center>
 					</div>
 				</div>
 				<!-- End ../images of Plot -->
-				<p>Racktor's Refuge is located at 28109, 24919 in Harro, directly west of the landing pad. There is a mod pinned in the Istara's Chosen Discord that places a log in front of the lair to make traversing easier for bipeds and hatchlings. (Traversing into the lair is possible otherwise, but requires a lot of tricky running.)</p>
-				<p>The lair is the primary guild lair and is fully functionally complete. It hosts the component storage for the entire guild as well as all of the formulas.</p>
+				<p>Racktor's Refuge is located at 28433, 24948 in Harro, directly northeast of the landing pad. The lair is the primary guild lair and is fully functionally complete. It hosts the component storage for the entire guild as well as all of the formulas. To access it, you must be added to a specific list, as most of the more coveted resources are held here. Contact Racktor if you need access.</p>
 				<p>All machines are T6 and open only to guild members, giving easy access to Radiant Essence, Shining Essence, Violet Azulyte, and a few other semi-nearby T5 and T6 resources.</p>
+				
 				<p><b>Open Machines</b></p>
 				<ul>
 					<li>T6 Smelting</li>
@@ -71,7 +64,8 @@
 				</ul>
 				<p><b>Open Storage</b></p>
 				<ul>
-					<li>T6 Lair - Crystals and Broken Items</li>
+					<li>T6 Helian Lair - Crystals and Broken Scales</li>
+					<li>T6 Lunus Lair - Crafting Equipment</li>
 					<li>T6 Grand Hall - Components and Trophies</li>
 					<li>T6 Helian Library - Biped Spells / Potions</li>
 					<li>T6 Lunus Library - Techniques</li>
@@ -80,8 +74,11 @@
 					<li>T2 Helian Library - Miscellaneous</li>
 					<li>T2 Lunus Library - Biped Equipment</li>
 				</ul>
+				<p><b>Utilities</b></p>
 				<ul>
 					<li>Vaultkeeper</li>
+					<li>T6 Tavernkeeper</li>
+					<li>T6 Oddities Broker</li>
 				</ul>
 				<br/>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
@@ -91,7 +88,7 @@
 					<div class="imagebox">
 						<img width="100%" src="../images/leezlordsland.png" class="modalImg" alt="Leezlord's Land">
 						<br/>
-						<center><i>Plot in-game</i></center>
+						<center><i>Plot In-Game</i></center>
 					</div>
 					<div class="imagebox">
 						<img width="100%" src="../images/leezlordsland-location.png" class="modalImg" alt="Leezlord's Land Location">
@@ -138,52 +135,53 @@
 				<br/>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 				
-			<a name="genevia"><header class="article border" style="clear:both;">The Genevia Hub (Plot)</header></a>
+			<a name="kerrsol"><header class="article border" style="clear:both;">Kerrsol's Bat Cave (Plot)</header></a>
 			<!-- ../images of Plot -->
 				<div class="imagefloater">
 					<div class="imagebox">
-						<img width="100%" src="../images/geneviaplot.png" class="modalImg" alt="The Genevia Hub">
+						<img width="100%" src="../images/kerrsolsplot.png" class="modalImg" alt="Kerrsol's Bat Cave ">
 						<br/>
-						<center><i>Plot in-game</i></center>
+						<center><i>Plot In-Game</i></center>
 					</div>
 					<div class="imagebox">
-						<img width="100%" src="../images/geneviaplot-location.png" class="modalImg" alt="The Genevia Hub Location">
+						<img width="100%" src="../images/kerrsolsplot-location.png" class="modalImg" alt="Kerrsol's Bat Cave Location">
 						<br/>
 						<center>
 							<b>Plot Location</b>
 							<br/><br/>
-							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=15499%2C+14676&showpad=">
+							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=28298%2C+24827&showpad=">
 							<i>View on Istaria Reference</a></i>
 						</center>
 					</div>
 				</div>
+				<!-- End ../images of Plot -->
 				
-				<p>The Genevia Hub is a plot located directly off the landing pad in Genevia and contains the scaffolds for all the expert shops as well as a few completed shops, a large vault, and a guild hall. Within the large vault is the guild's <a href='consigner.php'>consigner</a> where there are some wares listed for the public.</p>
-				<p>This plot will become a very useful hub plot for T1 resources, hence the nickname, but for now, it requires a lot of building and thus is a good place to level up high-tier biped craft.</p>
-				<p>The plot is located at 15499, 14676. The guild house on the plot contains back-up items for restocking the consigner. It is owned by Jstntron.</p>
-				
-				<p><b>Utilities</b></p>
-				<ul>
-					<li>Guild Consigner</li>
-					<li>Vaultkeeper</li>
-					<li>Pawnbroker</li>
-				</ul>
+				<p>Kerrsol's plot is located at 28298, 28298, right by the landing pad in Harro. It contains all biped-specific machines, as Racktor's lair is close enough by to use other generic machines. An extension is being made on the western side using another plot.</p>
+				<p>Kerrsol's plot also contains a storage for spare epic resources for use by anyone in the guild, as well as a warehouse for 'crafting scraps' - any leftover resources you have from crafting can be stuck in there for future crafting projects.</p>
 				
 				<p><b>Open Machines</b></p>
 				<ul>
-					<li>Expert Alchemist Shop</li>
-					<li>Expert Clothworking Shop</li>
-					<li>Expert Distillery Workshop</li>
-					<li>Expert Paper Press Workshop</li>
-					<li>Expert Pottery Workshop</li>
 					<li>Expert Woodworking Shop</li>
+					<li>Expert Jeweler Shop</li>
+					<li>Expert Clothworking Shop</li>
+					<li>Expert Leatherworking Shop</li>
+					<li>Expert Confectioner Shop</li>
+					<li>Expert Alchemist Shop</li>
+					<li>Expert Mill Shop</li>
+					<li>Expert Tinkerer Shop</li>
+					<li>Expert Paper Press</li>
 				</ul>
 				<p><b>Open Storage</b></p>
 				<ul>
-					<li>Guild House Basic - Broken Items, Dyes, Quest Items</li>
+					<li>Grand Warehouse - Spare Craft Scraps</li>
+					<li>Medium House - Spare Epic Resources</li>
+				</ul>
+				<p><b>Utilities</b></p>
+				<ul>
+					<li>Vaultkeeper</li>
+					<li>Pawnbroker</li>
 				</ul>
 				<br/>
-				
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 				
 			<a name="theeda"><header class="article border" style="clear:both;">Theeda's Humble Abode (Lair)</header></a>
@@ -192,7 +190,7 @@
 					<div class="imagebox">
 						<img width="100%" src="../images/theedashumbleabode.png" class="modalImg" alt="Theeda's Humble Abode Entrance">
 						<br/>
-						<center><i>Lair in-game</i></center>
+						<center><i>Lair In-Game</i></center>
 					</div>
 					<div class="imagebox">
 						<img width="100%" src="../images/theedashumbleabode-location.png" class="modalImg" alt="Theeda's Humble Abode Location">
@@ -207,8 +205,7 @@
 				</div>
 				<!-- End ../images of Plot -->
 				
-				<p>Theeda's Humble Abode is a lair located in Pleasant Canyon southwest of the landing pad at 22437, 20118. It is in a currently unfinished state and is open to any lairshapers who wish to level their lairshaping.</p>
-				<p>As of right now, it has multiple T4 machines built and open to the guild for storage. Surrounding the area is a multitude of T1 resources, making Theeda's lair a good spot for small- to medium-scale T1 crafting.</p>
+				<p>Theeda's Humble Abode is a lair located in Pleasant Canyon southwest of the landing pad at 22437, 20118. It is currently in a fully finished state with Tier 4 machines. Surrounding the area is a multitude of T1 resources, making Theeda's lair a good spot for small- to medium-scale T1 crafting.</p>
 				
 				<p><b>Open Machines</b></p>
 				<ul>
@@ -216,42 +213,66 @@
 					<li>T4 Helian Smelting</li>
 					<li>T4 Helian Stoneworking</li>
 					<li>T4 Helian Gemworking</li>
+					<li>T4 Helian Crystal Shaping</li>
 				</ul>
 				
 				<p><b>Open Storage</b></p>
 				<ul>
 					<li>T4 Helian Library</li>
-					<li>T2 Helian Lair</li>
+					<li>T5 Helian Lair</li>
+				</ul>
+				<p><b>Utilities</b></p>
+				<ul>
+					<li>Vaultkeeper</li>
+					<li>T2 Tavern</li>
 				</ul>
 				<br/>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 				
-			<a name="kerrsol"><header class="article border" style="clear:both;">Kerrsol's Plot (Plot)</header></a>
+			<a name="quipsy"><header class="article border" style="clear:both;">Quipsy's Outlook (Plot)</header></a>
 			<!-- ../images of Plot -->
 				<div class="imagefloater">
 					<div class="imagebox">
-						<img width="100%" src="../images/kerrsolsplot.png" class="modalImg" alt="Theeda's Humble Abode Entrance">
+						<img width="100%" src="../images/quipsy.png" class="modalImg" alt="Quipsy's Outlook">
 						<br/>
-						<center><i>Lair in-game</i></center>
+						<center><i>Plot In-Game</i></center>
 					</div>
 					<div class="imagebox">
-						<img width="100%" src="../images/kerrsolsplot-location.png" class="modalImg" alt="Theeda's Humble Abode Location">
+						<img width="100%" src="../images/quipsy-location.png" class="modalImg" alt="Quipsy's Outlook Location">
 						<br/>
 						<center>
-							<b>Lair Location</b>
+							<b>Plot Location</b>
 							<br/><br/>
-							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=28298%2C+24827&showpad=">
+							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=19607%2C+23287&showpad=">
 							<i>View on Istaria Reference</a></i>
 						</center>
 					</div>
 				</div>
 				<!-- End ../images of Plot -->
 				
-				<p>Kerrsol's plot is located at 28298, 28298, right by the landing pad in Harro. In the future, it is planned to be a basis for T6 crafting alongside Racktor's lair, which is directly above it. As of right now, it is mostly unbuilt with a few structures in progress.</p>
+				<p>Quipsy's Outlook is a plot built my Theeda's gnome on the mountain plot near Parsinia at 19607, 23287. It is loaded with guild-only workshops, but they are currently beginner. Theeda is planning to upgrade all of her shops to Expert at a later date, removing the Beginner ones once finished.</p>
 				
 				<p><b>Open Machines</b></p>
 				<ul>
-					<li>Expert Woodworking Shop</li>
+					<li>Beginner Alchemist Shop</li>
+					<li>Beginner Blacksmith Shop</li>
+					<li>Beginner Clothworking Shop</li>
+					<li>Beginner Confectioner Shop</li>
+					<li>Beginner Jewelry Shop</li>
+					<li>Beginner Leatherworking Shop</li>
+					<li>Beginner Mill Shop</li>
+					<li>Beginner Paper Press Workshop</li>
+					<li>Beginner Pottery Workshop</li>
+					<li>Beginner Scholar Shop</li>
+					<li>Beginner Stoneworking Shop</li>
+					<li>Beginner Tinkerer Shop</li>
+					<li>Beginner Woodworking Shop</li>
+				</ul>
+				
+				<p><b>Open Storage</b></p>
+				<ul>
+					<li>Guild House Basic - Shrine</li>
+					<li>Medium Gnome House</li>
 				</ul>
 				<p><b>Utilities</b></p>
 				<ul>
@@ -260,37 +281,80 @@
 				<br/>
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 				
-			<a name="heart"><header class="article border" style="clear:both;">Slice of Paradise (Plot)</header></a>
+			<a name="genevia"><header class="article border" style="clear:both;">The Genevia Hub (Plot)</header></a>
 			<!-- ../images of Plot -->
 				<div class="imagefloater">
 					<div class="imagebox">
-						<img width="100%" src="../images/heartjane.png" class="modalImg" alt="Slice of Paradise">
+						<img width="100%" src="../images/geneviaplot.png" class="modalImg" alt="The Genevia Hub">
 						<br/>
-						<center><i>Plot in-game</i></center>
+						<center><i>Plot In-Game</i></center>
 					</div>
 					<div class="imagebox">
-						<img width="100%" src="../images/heartjane-location.png" class="modalImg" alt="Slice of Paradise Location">
+						<img width="100%" src="../images/geneviaplot-location.png" class="modalImg" alt="The Genevia Hub Location">
 						<br/>
 						<center>
 							<b>Plot Location</b>
 							<br/><br/>
-							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=22371%2C+20493&showpad=">
+							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=15499%2C+14676&showpad=">
 							<i>View on Istaria Reference</a></i>
 						</center>
 					</div>
 				</div>
 				
-				<p>Slice of Paradise is a plot owned by Theeda's gnome alt and hosts the guild's tavern. T5/T6 food is often stocked here for those who need to eat off their death points. Otherwise, there are a few decorational items in construction and the plot is largely decorational in function.</p>
-				<p>It is located at 22371, 20493 nearby the waterfall and down the cliff from the pad in Heart.</p>
+				<p>The Genevia Hub is a plot located directly off the landing pad in Genevia and contains the scaffolds for all the expert shops as well as a few completed shops, a large vault, and a guild hall. Within the large vault is the guild's consigner where there are some wares listed for the public at times.</p>
+				<p>This plot will become a very useful hub plot for T1 resources, hence the nickname, but for now, it requires a lot of building and thus is a good place to level up high-tier biped craft.</p>
+				<p>The plot is located at 15499, 14676. It is owned by Jstntron.</p>
+				
+				<p><b>Open Machines</b></p>
+				<ul>
+					<li>Expert Alchemist Shop</li>
+					<li>Expert Clothworking Shop</li>
+					<li>Expert Distillery Workshop</li>
+					<li>Expert Paper Press Workshop</li>
+					<li>Expert Pottery Workshop</li>
+					<li>Expert Woodworking Shop</li>
+				</ul>
+				<p><b>Open Storage</b></p>
+				<ul>
+					<li>Guild House Basic - Broken Items, Dyes, Quest Items</li>
+				</ul>
 				
 				<p><b>Utilities</b></p>
 				<ul>
-					<li>Large Tavern</li>
+					<li>Guild Consigner</li>
+					<li>Vaultkeeper</li>
+					<li>Pawnbroker</li>
 				</ul>
+				<br/>
 				
 				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
 				
-				<!-- Modal Image Popup -->
+			<a name="caprica"><header class="article border" style="clear:both;">Rückzug der Sturmfänger (Lair)</header></a>
+			<!-- ../images of Plot -->
+				<div class="imagefloater">
+					<div class="imagebox">
+						<img width="100%" src="../images/capricalair.png" class="modalImg" alt="Rückzug der Sturmfänger Entrance">
+						<br/>
+						<center><i>Lair In-Game</i></center>
+					</div>
+					<div class="imagebox">
+						<img width="100%" src="../images/capricalair-location.png" class="modalImg" alt="Rückzug der Sturmfänger Location">
+						<br/>
+						<center>
+							<b>Lair Location</b>
+							<br/><br/>
+							<a target="_blank" href="http://istariareference.com/istariamap.asp?loc=48247%2C+18380&showpad=">
+							<i>View on Istaria Reference</a></i>
+						</center>
+					</div>
+				</div>
+				<!-- End ../images of Plot -->
+				
+				<p>Rückzug der Sturmfänger is a lair located in Deilsefa east-northeast of the landing pad at 48247, 18380 owned by Caprica. It is mostly unfinished. It cannot be accessed easily by bipeds or hatchlings, as it is off the ground with a landing ledge.</p>
+				<p>Neighboring her are Aekaitz's lair, the Guild Master of our sister guild, Ethereal Thunder, and Theeda's alt Toph's lair.</p>
+				<br/>
+				<p style="clear:both"><i><a href="#top">Return to Top <span style="font-size:.75em;">&#9650;</span></a></i></p>
+								<!-- Modal Image Popup -->
 				<div id="modalImage" class="modal">
 					<span class="close" onclick="document.getElementById('modalImage').style.display='none'">&times;</span>
 					<img class="modal-content" id="img01">
