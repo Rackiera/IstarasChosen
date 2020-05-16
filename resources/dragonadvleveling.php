@@ -23,7 +23,7 @@
 	<!-- END NAVIGATION -->
 	<article>
 		<header class="article border">Dragons: An Introduction and Adventure Leveling Guide</header>
-	<p style="font-size:.75em">Written by Racktor August 1st, 2018 - May 13th, 2020</p>
+	<p style="font-size:.75em">Written by Racktor, August 1st, 2018 - May 13th, 2020</p>
 			<br/>
 			<center><i><a href="index.php">&larr; Return to Guides</a></i></center>
 			<br/>
@@ -31,6 +31,7 @@
 				<li><a href="#intro">Introduction</a></li>
 				<li><a href="#build">Making a Basic Build</a></li>
 					<ul>
+						<li><a href="#paths">Caster or Melee?</a></li>
 						<li><a href="#tp">Training Points</a></li>
 						<li><a href="#scales">Scales</a></li>
 						<li><a href="#claws">Claws</a></li>
@@ -61,6 +62,11 @@
 		<p>Regardless of what crafting path you take, leveling adventure is very similar all the same. Before we delve into the actual leveling aspect of playing a dragon, let's consider the basic build mechanics and how setting up your training points and scales works.</p>
 		<a name="build"><header class="subsection border">Making a Basic Build</header></a>
 			<p>Before we start, let’s cover their basic statistics and skills so you understand what you’re looking at in your training points window. We go far more in detail with this on the <a href="http://istaraschosen.com/resources/dragonbuilds.php" target="_blank">Introduction to Dragon Builds</a> page, so check that out if that is more what you’re looking for. This is a simple overview!</p>
+				<a name="paths"><header class="subsection2 border">Caster or Melee?</header></a>
+					<p>There are two primary build paths a dragon can take - a dragon spellcaster (henceforth referred to as 'caster') or a physical attacker/melee dragon (melee). There are other variants you can make, like hybrids or tanks, but for simplicity's sake, I won't be talking about them.</p>
+					<p>A big question that is often asked is whether to build  for casting or melee. In the end, this is a personal preference - both are equally viable for the general game and function well on their own. The primary difference is in the amount of preperation required to work each build properly.</p>
+					<p>In Istaria, spells are crafted and not gained by level. So to play a caster, you have to be on top of crafting your spells at every tier and additionally do the Drain Bolt questline offered by Khemarius, who is in a tier four zone and can be very hard to get to as a low-level dragon. (His first quest unlocks at level 10).</p>
+					<p>For new players, it is generally recommended you start as a melee dragon because of this; there is much less overhead as all of your useful abilities come from leveling or the ability quests you will do to level up anyway. It is very easy to later respec yourself at endgame to work as a caster if you want to swap, as well, so do not fear being locked into one build path if you are unsure!</p>
 				<a name="tp"><header class="subsection2 border">Training Points</header></a>
 				<p>The first encounter with creating a build you will have is with your training points. Training points are points that you can spend in exchange for certain statisics. Listed below are the available stats you can skill.</p>
 				<ul>
@@ -74,7 +80,7 @@
 					<li><b>Evasion:</b> Increases your chance to dodge an enemy's physical attack. Costs 3 points.</li>
 					<li><b>Magic Evasion:</b> Increases your chance to dodge an enemy's magical attack. Costs 3 points.</li>
 				</ul>
-			<p>From this list, you'll notice two major distinctions: magic and physical damage. Depending on what you want to play as - a dragon spellcaster (henceforth referred to as 'caster') or a physical attacker/melee dragon (melee) - you will want to skill specific stats related to it. If you are a melee-focused character, then don't put anything in primal, power, or focus, for instance. Regardless of which category you are looking for, it is not recommended to skill anything into the evasion, dexterity, or focus - these statistics are largely useless to you and do not make enough of a notable difference in my testing.</p>
+			<p>From this list, you'll notice two major distinctions: magic and physical damage. Depending on what you want to play as - caster or melee - you will want to skill specific stats related to it. If you are a melee-focused character, then don't put anything in primal, power, or focus, for instance. Regardless of which category you are looking for, it is not recommended to skill anything into the evasion, dexterity, or focus - these statistics are largely useless to you and do not make enough of a notable difference in my testing.</p>
 			<p>Especially when leveling, the unique statitic health is very useful to skill. If you put a lot of points into health, you will directly see those points returned as hitpoint. 600 training points into health means 600 hit points.</p>
 			<p>Keep in mind when skilling statistics that you can only ever place half of your maximum points into one category, limiting you to fully filling two bars.</p>
 			<p>Knowing all of this, now, here are the usual primary statistics that you will likely focus on. As a <i>melee</i>, you will likely skill strength, tooth and claw, and health. Focus on health if you want survivability, and otherwise focus on a split between strength and tooth and claw if you want to be more of a glass cannon.</p>
@@ -164,7 +170,7 @@
 				<a name="t5"><header class="subsection2 border">Tier 5 - The Aradoth Frontier</header></a>
 					<p>You're in the last stretch! At this point, you will also notice that most of your ability quests stop at VIII (8) or VII (7) for Gold Rage, leaving you on even more of a grind than prior. The last two quests are locked behind ascending to ancient at level 100, and therefore are unobtainable for you as of now. Your only remaining ability quests will be your passives - Accurate Breath, Hardened Scales, Tooth and Claw Mastery, and Primal Mastery.</p>
 					<p>Thankfully, tier five trophies are very good for experience - <i>very</i> good.</p>
-					<p>That being said, your quests for level 80 are on the Island of Ice, a portal reachable only from the Outlands portal in Bristugo - <a href="http://www.istaria-lexica.de/Expedition_Camp" target="_blank">specifically at the expedition camp</a>. Here begins the  long Niesa's Fate questline at level 90, and a few other small quests at level 80. Be aware that Niesa's Fate leads up to you killing an Epic Boss, so be prepared to pull a group together. One of these quests gives an exceptionally good Tail Scale technique, though I would recommend saving it for a T6 tail scale post-ancienthood for casters.</p>
+					<p>That being said, your quests for level 80 are on the Island of Ice, a portal reachable only from the Outlands portal in Bristugo - <a href="http://www.istaria-lexica.de/Expedition_Camp" target="_blank">specifically at the expedition camp</a>. Here begins the  long Niesa's Fate questline at level 90, and a few other small quests at level 80. Be aware that Niesa's Fate leads up to you killing an Epic Boss, so be prepared to pull a group together. One of these quests gives an exceptionally good Tail Scale technique for casters that is easily re-obtained daily, so feel free to use it as soon as you get it.</p>
 					<p>At level 85, you can pick up the beginnings of the Imperial Army questline, which eventually leads to obtaining the Ceremonial Chest Scale, one of the best  defensive pieces of armor in the game. This starts from the <a href="http://www.istaria-lexica.de/Imperial_Outpost" target="_blank">Imperial Outpost</a>
 					<p>For level 90, the Iron Guard questline starts in Aughundell. You can also go to the <a href="http://www.istaria-lexica.de/Blackhammer_Farmstead" target="_blank">Blackhammer Farmstead<a> and pick up the quests there for a very good crystal (Saris Stone of Friendship, +250 ethereal armor and +175 health) and technique kit (Blackhammer Crest - +500 to Blight Resistance, 25% chance to reduce incoming melee and ranged damage by 20% from undead.)</p>
 					<p>Finally, you can begin epic hunting - your daily quests are picked up at <a href="http://www.istaria-lexica.de/Eastern_Outpost" target="_blank">the Eastern Outpost</a>. While not an amazing source of experience, it is endgame content that brings the community together and prepares you for getting your best gear!</p>

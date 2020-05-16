@@ -35,7 +35,7 @@
 					A guide to making crafting sets to max out your skills for dragons and bipeds alike - both min-maxed sets and general sets are available to reference.
 				</li>
 				<li>
-					<!--<a href="guides/bossguides.php">-->Epic Bosses ~ <i>Work in Progress</i><!--</a>-->
+					<a href="bossguides.php">A Guide to Epic Monsters</a>
 					<br>
 					A look into each epic boss, its mechanics, weaknesses, allies, and how to best approach a fight.
 				</li>
@@ -56,7 +56,7 @@
 		<header class="subsection border">Dragon</header>
 			<ul>
 				<li>
-					<a href="guides/dragonadvleveling.php">Dragons: An Introduction and Adventure Leveling Guide</a>
+					<a href="dragonadvleveling.php">Dragons: An Introduction and Adventure Leveling Guide</a>
 					<br>
 					An introduction to players new to dragons including a general explanation of training points, scales, dragon factions, combat, and the process of leveling from 0 to 100 in Dragon Adventurer.
 				</li>
@@ -114,17 +114,12 @@
 				<li>
 				<a href="http://www.istaria-lexica.de/">Istaria Lexica</a>
 				<br/>
-					A newer MediaWiki-based website that was duplicated from the Istaria Wikia a few years ago and since has gained enough edits to be a unique generally up-to-date resource for general Istarian knowledge such as mobs, their drops, spawns, quest guides, and so on. Managed by Elteria and Terao.
+					Istaria's most up-to-date wiki site, built on a 2015 copy of the Istaria Wikia and updated since. Contains details about everything in the game from loot to quests. Managed by Elteria and Terao.
 				</li>
 				<li>
 				<a href="http://istariareference.com">Istaria Reference</a>
 				<br/>
 					A long-standing website managed by Cegaiel that contains a whole truckload of useful information from an entire Istarian map to a personal tracker for formulas.
-				</li>
-				<li>
-				<a href="http://istaria.wikia.com">Istaria Wikia</a>
-				<br/>
-					The original Wikia for Istaria that has existed for years now. It is another resource for quests, mobs, loot tables, and the like. Managed by Calidavis / Kida.
 				</li>
 				<li>
 				<a href="http://dalimondarchives.wikia.com">The Dalimond Archives</a>

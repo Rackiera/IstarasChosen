@@ -25,7 +25,7 @@
 		<center><img style="max-height:200px;margin-bottom:-2.5em; max-width:75%;" src="images/name.png"/></center>
 		<br/>
 		<div class="seperator"></div>
-			<div style="text-align:center;"><p>Hello there and welcome to the homepage of Istara's Chosen (IC)! We are a guild based primarily on the Chaos server. Our activity is in a lot of flux and we cannot promise any sort of proper guild community as we are right now. If you're looking for a fun and active guild that is always accepting new members, please check out our sister guild, <a href="https://www.ethereal-thunder.com/">Ethereal Thunder</a>, run by Aekaitz!</p>
+			<div style="text-align:center;"><p>Hello there and welcome to the homepage of Istara's Chosen (IC)! We are a guild based primarily on the Chaos server.  In-game, our activity is in a lot of flux, so if you're looking for a fun and active guild that is always accepting new members, please check out our sister guild, <a href="https://www.ethereal-thunder.com/">Ethereal Thunder</a>, run by Aekaitz!</p>
 			<p>Our members are dedicated to helping out the community, be it in-game directly or indirectly through guides and resources. This site is home to all of our guild information, but also our plethora of <a href="resources/">written guides and resources</a> to help anyone - old or new - find their way in this old game we call home.</p>
 			<p>If you want to contribute anything to this site, wish to report an issue, or have any suggestions or feedback, please hop over to the Contact Us section and contact anyone listed there.</p></div>
 			

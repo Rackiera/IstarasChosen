@@ -250,7 +250,7 @@
 				</div>
 				<!-- End ../images of Plot -->
 				
-				<p>Quipsy's Outlook is a plot built my Theeda's gnome on the mountain plot near Parsinia at 19607, 23287. It is loaded with guild-only workshops, but they are currently beginner. Theeda is planning to upgrade all of her shops to Expert at a later date, removing the Beginner ones once finished.</p>
+				<p>Quipsy's Outlook is a plot built by Theeda's gnome on the mountain plot near Parsinia at 19607, 23287. It is loaded with guild-only workshops, but they are currently beginner. Theeda is planning to upgrade all of her shops to Expert at a later date, removing the Beginner ones once finished.</p>
 				
 				<p><b>Open Machines</b></p>
 				<ul>
